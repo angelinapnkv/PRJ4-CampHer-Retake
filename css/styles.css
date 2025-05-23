@@ -124,11 +124,11 @@ label {
 
 /* Footer Styling */
 .site-footer {
-  background-color: #fff; /* Or use #F8F9FA or your chosen color */
-  color: #4C3921;
+  background-color: #fff; /* same as bg-body */
   padding: 1.5rem 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  font-size: 0.95rem;
+  color: #4C3921;
+  font-size: 1rem;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
 }
 
 .site-footer p {
@@ -136,11 +136,19 @@ label {
   color: #4C3921;
 }
 
-.site-footer a {
-  color: #4C3921;
-  text-decoration: none;
+.site-footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.site-footer a img {
+  width: 26px;
+  margin: 0 0.5rem;
 }
 
 .site-footer a:hover {
-  opacity: 0.6;
+  opacity: 0.5;
 }
