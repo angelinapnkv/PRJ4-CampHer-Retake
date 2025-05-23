@@ -62,7 +62,7 @@ a.btn:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   color: #4C3921;
 }
-/* Global text color for consistent branding */
+/* Text color */
 body,
 h1, h2, h3, h4, h5, h6,
 p,
@@ -75,7 +75,7 @@ label {
   color: #4C3921;
 }
 
-/* Ensure primary buttons match the CampHer style */
+/* Buttons style */
 .btn-primary {
   background-color: #F3B23F;
   border-color: #F3B23F;
