@@ -32,7 +32,10 @@ header {
 
 footer a:hover {
 	opacity: .5;
-	color: #95A387;
+}
+
+.site-footer {
+  background-color: #95A387;    
 }
 
 /* Corporate navbar */
