@@ -135,3 +135,27 @@ label {
   z-index: 2;
 }
 
+.hero-welcome {
+  background: url('../images/welcome-bg.jpg') center center / cover no-repeat;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-welcome::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.45); /* semi-transparent overlay */
+  z-index: 1;
+}
+
+.hero-welcome .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-welcome h1,
+.hero-welcome p {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
