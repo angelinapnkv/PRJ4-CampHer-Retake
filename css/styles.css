@@ -93,3 +93,8 @@ label {
   border-color: #e0a634;
   color: #4C3921;
 }
+
+.card {
+  background-color: #95A387;
+  color: #4C3921; /* ensures text is readable on the green */
+}
