@@ -94,3 +94,20 @@ label {
   color: #4C3921;
 }
 
+.btn-comment {
+  background-color: #F3B23F;
+  color: #4C3921;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 24px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-comment:hover {
+  background-color: #e09d32;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  color: #4C3921;
+}
+
