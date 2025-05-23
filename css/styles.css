@@ -122,40 +122,28 @@ label {
   color: #4C3921;
 }
 
-.hero-header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-
-.hero-header > * {
-  position: relative;
-  z-index: 2;
-}
-
 .hero-welcome {
   background: url('../images/welcome-bg.jpg') center center / cover no-repeat;
   min-height: 100vh;
   position: relative;
-  z-index: 1;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay behind text */
+  padding: 80px 30px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.hero-welcome .hero-overlay {
+  position: relative;
+  z-index: 2;
 }
 
 .hero-welcome::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.45); /* semi-transparent overlay */
+  background-color: rgba(0, 0, 0, 0.35); /* Optional soft overlay */
   z-index: 1;
-}
-
-.hero-welcome .container {
-  position: relative;
-  z-index: 2;
-}
-
-.hero-welcome h1,
-.hero-welcome p {
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
