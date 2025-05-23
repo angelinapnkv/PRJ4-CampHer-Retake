@@ -65,6 +65,6 @@ footer a:hover {
 a.btn:hover {
   background-color: #e09d32;
   transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   color: #4C3921;
 }
