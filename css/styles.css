@@ -94,7 +94,7 @@ label {
   color: #4C3921;
 }
 
-.btn-comment {
+.btn-custom {
   background-color: #F3B23F;
   color: #4C3921;
   border: none;
@@ -104,10 +104,11 @@ label {
   transition: all 0.3s ease;
 }
 
-.btn-comment:hover {
+.btn-custom:hover {
   background-color: #e09d32;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   color: #4C3921;
 }
+
 
