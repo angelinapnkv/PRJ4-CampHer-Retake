@@ -121,29 +121,3 @@ label {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   color: #4C3921;
 }
-
-.hero-welcome {
-  background: url('../images/welcome-bg.jpg') center center / cover no-repeat;
-  min-height: 100vh;
-  position: relative;
-}
-
-.hero-overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay behind text */
-  padding: 80px 30px;
-  border-radius: 10px;
-  z-index: 2;
-}
-
-.hero-welcome .hero-overlay {
-  position: relative;
-  z-index: 2;
-}
-
-.hero-welcome::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.35); /* Optional soft overlay */
-  z-index: 1;
-}
