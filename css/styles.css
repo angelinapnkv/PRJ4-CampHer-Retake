@@ -122,17 +122,4 @@ label {
   color: #4C3921;
 }
 
-.hero-section {
-  background: url('../images/welcome-bg.jpg') center center / cover no-repeat;
-  height: 100vh; /* Full screen height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
 
-.hero-overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
-  padding: 60px 20px;
-  border-radius: 12px;
-}
