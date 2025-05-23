@@ -121,3 +121,14 @@ label {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   color: #4C3921;
 }
+
+.hero-section {
+  background: url('../images/welcome-bg.jpg') center center / cover no-repeat;
+  color: white;
+  position: relative;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 100px 20px;
+}
