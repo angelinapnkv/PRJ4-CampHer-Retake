@@ -1,7 +1,7 @@
 /* Importing a Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
-/* Changing the main font and background colour */
+/* Main font and background colour style */
 
 body {
 	font-family: Pangolin, sans-serif;
@@ -9,13 +9,13 @@ body {
 	background-color: #fff0e0;
 }
 
-/* Changing the background colour for the header */
+/* Background colour for the header style */
 
 header {
 	background-color: #95A387;
 }
 
-/* Changing the background color for the navigation bar */
+/* Background color for the navigation bar style */
 
 .navbar {
 	background-color: #95A387;
@@ -66,7 +66,9 @@ a.btn:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   color: #4C3921;
 }
+
 /* Text color */
+
 body,
 h1, h2, h3, h4, h5, h6,
 p,
@@ -80,6 +82,7 @@ label {
 }
 
 /* Buttons style */
+
 .btn-custom {
   background-color: #F3B23F;
   color: #4C3921;
