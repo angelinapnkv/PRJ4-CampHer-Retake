@@ -119,32 +119,3 @@ h2.display-5::after {
   margin: 0.5rem auto 0;
   border-radius: 2px;
 }
-
-#storyModal .modal-content {
-  padding: 1.5rem;
-  border-radius: 16px;
-  background-color: #fffdf9;
-}
-
-#storyModal .form-control {
-  border-radius: 12px;
-  box-shadow: none;
-}
-
-.welcome-heading {
-  color: #4C3921;
-  letter-spacing: 0.5px;
-  border-bottom: 2px solid #F3B23F;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-}
-.welcome-heading::after {
-  content: '';
-  display: block;
-  width: 80px;
-  height: 4px;
-  background-color: #F3B23F;
-  margin: 0.75rem auto 0;
-  border-radius: 2px;
-}
-
