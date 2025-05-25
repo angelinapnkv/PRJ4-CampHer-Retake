@@ -119,3 +119,14 @@ h2.display-5::after {
   margin: 0.5rem auto 0;
   border-radius: 2px;
 }
+
+#storyModal .modal-content {
+  padding: 1.5rem;
+  border-radius: 16px;
+  background-color: #fffdf9;
+}
+
+#storyModal .form-control {
+  border-radius: 12px;
+  box-shadow: none;
+}

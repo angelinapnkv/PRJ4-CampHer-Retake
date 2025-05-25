@@ -122,6 +122,35 @@
         </div>
       </div>
     </div>
+	 
+	  <!-- Share your story section -->
+	 <div class="text-center my-5">
+  <button class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#storyModal">
+    Share your story now
+  </button>
+</div>
+	 
+	 <!-- Share Story Modal -->
+<div class="modal fade" id="storyModal" tabindex="-1" aria-labelledby="storyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content rounded-4">
+      <div class="modal-header">
+        <h5 class="modal-title" id="storyModalLabel">Share Your Story</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="storyText" class="form-label">Your Story</label>
+            <textarea class="form-control" id="storyText" rows="5" placeholder="Tell us your experience..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-custom">Submit Story</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
 	  
 	     <!-- Support section -->
     <section class="container text-center my-5">
