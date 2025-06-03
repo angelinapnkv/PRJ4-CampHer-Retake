@@ -133,5 +133,35 @@ h2.display-5 {
   margin-bottom: 1rem;
 }
 
+/* Modal background and text color */
+.modal-content {
+  background-color: #95A387;
+  color: #4C3921;
+  border: none;
+  border-radius: 10px;
+}
 
+/* Modal title text color */
+.modal-title {
+  color: #4C3921;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Yellow buttons inside modals */
+.modal-content .btn {
+  background-color: #F3B23F;
+  color: #4C3921;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+.modal-content .btn:hover {
+  background-color: #F3B23F;
+  color: #4C3921;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
 
