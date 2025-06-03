@@ -1,12 +1,24 @@
 /* Importing a Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
-/* Main font and background colour style */
-
+/* Global body text */
 body {
-	font-family: Pangolin, sans-serif;
-	background-color: #fffcf8;
-	background-color: #fff0e0;
+  font-family: 'Pangolin', sans-serif;
+  background-color: #fff0e0;
+  color: #4C3921;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+}
+
+/* Quotes and italic text */
+.quote, .fst-italic, blockquote {
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  color: #4C3921;
 }
 
 /* Background colour for the header style */
@@ -94,11 +106,9 @@ label {
 }
 
 .btn-custom:hover {
-  background-color: #e09d32;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  color: #4C3921;
+  background-color: #d99d33;
 }
+
 
 /* Header style */
 
