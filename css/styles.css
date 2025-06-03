@@ -1,21 +1,13 @@
-/* Importing Google Fonts */
+/* Importing a Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
 
 /* Main font and background colour style */
 
 body {
-	font-family: 'Quicksand', sans-serif;
+	font-family: Pangolin, sans-serif;
 	background-color: #fffcf8;
 	background-color: #fff0e0;
 }
-
-/* Main font and background colour style */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-}
-
 
 /* Background colour for the header style */
 
