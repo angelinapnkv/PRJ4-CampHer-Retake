@@ -44,6 +44,22 @@ header {
   font-weight: bold;
 }
 
+.join-card {
+  background-color: #95A387;
+  color: #4C3921;
+  border: none;
+}
+
+/* Style for the registration card */
+
+.registration-card h3,
+.registration-card label,
+.registration-card p,
+.registration-card a {
+  color: #4C3921;
+}
+
+
 /* Effect on social media buttons */
 
 footer a:hover {
