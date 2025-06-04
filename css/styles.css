@@ -88,13 +88,6 @@ footer a:hover {
   display: block;
 }
 
-a.btn:hover {
-  background-color: #F3B23F;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  color: #4C3921;
-}
-
 /* Text color */
 body,
 h1, h2, h3, h4, h5, h6,
@@ -117,12 +110,15 @@ label {
   padding: 10px 24px;
   font-weight: bold;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .btn-custom:hover {
-  background-color: #F3B23F;
+  background-color: #d99d33;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  color: #4C3921;
 }
-
 
 /* Header style */
 h2.display-5 {
@@ -147,21 +143,4 @@ h2.display-5 {
   font-family: 'Quicksand', sans-serif;
 }
 
-/* Yellow buttons inside modals */
-.modal-content .btn {
-  background-color: #F3B23F;
-  color: #4C3921;
-  border: none;
-  border-radius: 30px;
-  font-weight: bold;
-  transition: all 0.3s ease;
-}
-
-/* Button hover effect */
-.modal-content .btn:hover {
-  background-color: #F3B23F;
-  color: #4C3921;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
 
